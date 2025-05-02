@@ -10,10 +10,6 @@
     <item id="chapter1" href="Text/chapter1.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine>
-		<itemref idref="nav"/> 
-		<!-- Chat GPT left the nav out of the spine. I read a 
-		[forum thread](https://www.mobileread.com/forums/showthread.php?t=281295)
-		that said things need to be in the spine to be viewable. -->
     <itemref idref="chapter1"/>
   </spine>
 </package>
